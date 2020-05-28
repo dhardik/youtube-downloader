@@ -1,0 +1,23 @@
+{
+  "name": "ytd",
+  "version": "1.0.0",
+  "description": "Online youtube downloader",
+  "engines": {
+    "node": "12.11.1"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Hardik Mishra",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "nodemon": "^2.0.4",
+    "path": "^0.12.7",
+    "ytdl-core": "^2.1.5"
+  }
+}
